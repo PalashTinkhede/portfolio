@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import chatBox from './../../Assets/Screenshot 2024-11-12 234201.png';
-import ecommerce from './../../Assets/Screenshot 2024-11-12 235300.png';
+import ecommerce from './../../Assets/Screenshot 2024-12-23 162615.png';
 import mul from './../../Assets/Screenshot 2024-11-12 235406.png';
 import gamezone from './../../Assets/Screenshot 2024-11-12 235503.png';
 import weather from './../../Assets/Screenshot 2024-11-13 001730.png';
