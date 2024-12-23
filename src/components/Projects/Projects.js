@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
-import chatBox from './../../Assets/Screenshot 2024-11-12 234201.png';
-import ecommerce from './../../Assets/Screenshot 2024-12-23 162615.png';
-import mul from './../../Assets/Screenshot 2024-11-12 235406.png';
-import gamezone from './../../Assets/Screenshot 2024-11-12 235503.png';
-import weather from './../../Assets/Screenshot 2024-11-13 001730.png';
+import chatBox from "./../../Assets/image.png";
+import ecommerce from "./../../Assets/Screenshot 2024-12-23 162615.png";
+import mul from "./../../Assets/Screenshot 2024-11-12 235406.png";
+import gamezone from "./../../Assets/Screenshot 2024-11-12 235503.png";
+import weather from "./../../Assets/Screenshot 2024-11-13 001730.png";
 import ProjectCard from "./ProjectCards";
 
 function Projects() {
@@ -39,7 +39,16 @@ function Projects() {
               ghLink="https://github.com/PalashTinkhede/E-commerce"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weather}
+              isBlog={false}
+              title="Weather App"
+              description="A sleek weather app with third-party API integration offering real-time updates, forecasts, and alerts. Features a user-friendly UI, location-based data, customizable themes, and cross-platform compatibility, ensuring accurate weather insights and a seamless experience for all users."
+              ghLink="https://github.com/PalashTinkhede/weather_app"
+              demoLink="https://weather-app-two-blush-21.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mul}
@@ -47,7 +56,7 @@ function Projects() {
               title="Mutal Funds Calculator"
               description="A mutual funds calculator built with ReactJS and Node calculates investment returns based on inputs like amount, duration, and rate of return. Deployed on Vercel, it provides real-time, user-friendly insights for investors on any device."
               ghLink="https://github.com/Palash-Tinkhede/mutalFundsCalculator"
-              demoLink="https://mutalfundscalculator.vercel.app/"              
+              demoLink="https://mutalfundscalculator.vercel.app/"
             />
           </Col>
 
@@ -61,19 +70,6 @@ function Projects() {
               demoLink=""
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={weather}
-              isBlog={false}
-              title="Weather App"
-              description="A sleek weather app with third-party API integration offering real-time updates, forecasts, and alerts. Features a user-friendly UI, location-based data, customizable themes, and cross-platform compatibility, ensuring accurate weather insights and a seamless experience for all users."
-              ghLink="https://github.com/PalashTinkhede/weather_app"
-              demoLink="https://weather-app-two-blush-21.vercel.app/"
-            />
-          </Col>
-
-         
         </Row>
       </Container>
     </Container>
