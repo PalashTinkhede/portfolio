@@ -1,13 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
-import emotion from "../../Assets/Projects/emotion.png";
 import chatBox from './../../Assets/Screenshot 2024-11-12 234201.png';
 import ecommerce from './../../Assets/Screenshot 2024-11-12 235300.png';
 import mul from './../../Assets/Screenshot 2024-11-12 235406.png';
 import gamezone from './../../Assets/Screenshot 2024-11-12 235503.png';
 import weather from './../../Assets/Screenshot 2024-11-13 001730.png';
+import ProjectCard from "./ProjectCards";
 
 function Projects() {
   return (
@@ -28,7 +27,6 @@ function Projects() {
               title="ChatBOX"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and MongoDB Atlas. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink="https://github.com/Palash-Tinkhede/chatbox_frontend"
-              demoLink=""
             />
           </Col>
 
@@ -37,9 +35,8 @@ function Projects() {
               imgPath={ecommerce}
               isBlog={false}
               title="E-commerce Website UI"
-              description="An e-commerce page built with HTML and CSS offers a user-friendly, responsive design that enhances shopping experiences. Featuring intuitive navigation, clean layouts, and optimized visuals, it ensures easy browsing, quick product discovery, and smooth checkout processes for users across devices."
+              description="An e-commerce website build in MERN stack , RestApi and Toastify. It is a dynamic userfriendly website which allows user to login, view product,  add product to cart and checkout and buy the product. It uses cookie , jwt for storing user and bcrypt to store password."
               ghLink="https://github.com/PalashTinkhede/E-commerce"
-              demoLink="https://e-commerce-1-drab.vercel.app/"
             />
           </Col>
 
