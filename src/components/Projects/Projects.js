@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import chatBox from "./../../Assets/image.png";
-import ecommerce from "./../../Assets/Screenshot 2024-12-23 162615.png";
+import ecommerce from "./../../Assets/Screenshot 2025-01-21 151609.png";
 import mul from "./../../Assets/Screenshot 2024-11-12 235406.png";
 import gamezone from "./../../Assets/Screenshot 2024-11-12 235503.png";
 import weather from "./../../Assets/Screenshot 2024-11-13 001730.png";
@@ -37,6 +37,7 @@ function Projects() {
               title="E-commerce Website UI"
               description="An e-commerce website build in MERN stack , RestApi and Toastify. It is a dynamic userfriendly website which allows user to login, view product,  add product to cart and checkout and buy the product. It uses cookie , jwt for storing user and bcrypt to store password."
               ghLink="https://github.com/PalashTinkhede/E-commerce"
+              demoLink="https://shop-vault-frontend.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
