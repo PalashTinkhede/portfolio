@@ -11,10 +11,15 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Palash Tinkhede </span>
             from <span className="purple"> Nagpur, India.</span>
+            
             <br />
-            I am currently pursuing B.Tech From IIIT Nagpur
+           <br />
+            I am currently working as Project Trainee @<span className="purple">ZOHO Corporation</span>
             <br />
-           
+            <br />
+       
+           4th year student of<span className="purple"> IIIT Nagpur</span>
+            <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>

@@ -12,7 +12,7 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
+  SiExpress,
   SiFirebase,
   SiNextdotjs,
  
@@ -38,9 +38,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb  />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs  />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGit  />
       </Col>
@@ -48,7 +48,7 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis  />
+        <SiExpress  />
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">

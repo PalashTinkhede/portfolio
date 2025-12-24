@@ -6,14 +6,14 @@ import {
   SiPostman,
   SiSlack,
   SiVercel,
-  SiMacos,
+  SiDocker,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
+        <SiDocker className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode className="filter grayscale hover:grayscale-0 transition duration-300 ease-in-out" />
